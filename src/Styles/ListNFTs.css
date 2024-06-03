@@ -1,0 +1,67 @@
+/* Add this to your CSS file */
+
+.nft-list-container {
+  padding: 10px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.nft-list-title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.nft-button {
+  display: block;
+  margin: 10px auto;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nft-button:disabled {
+  background-color: #cccccc;
+}
+
+.nft-loading, .nft-error, .nft-loading-image {
+  text-align: center;
+  margin: 8px 0;
+}
+
+.nft-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nft-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.nft-token-id, .nft-token-uri, .nft-owner, .nft-price, .nft-adjusted-price, .nft-name, .nft-description, .nft-image {
+  margin: 4px 0;
+}
+
+.image-list {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.nft-buy-button {
+  display: block;
+  margin: 8px auto;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
